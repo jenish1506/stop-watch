@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>start Stop watch</h1>
+      <h1>|| Start Stop Watch ||</h1>
       <h1>{watch}</h1>
       <button className='start' disabled={started} onClick={startwatch}>Start</button>
       <button className='stop' onClick={stopwatch}>Stop</button>
